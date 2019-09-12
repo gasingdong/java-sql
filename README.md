@@ -130,21 +130,21 @@ Take the following data and normalize it into a 3NF database.
 | Sam         | Ginger   | Dog      | Miss Kitty | Cat        | Bubble     | Fish       | Yes         | No           |
 
 
-| Person Name | Fenced Yard | City Dweller |
-|-------------|-------------|--------------|
-| Jane        | No          | Yes          |
-| Bob         | No          | No           |
-| Sam         | Yes         | No           |
+| Person ID | Person Name | Fenced Yard | City Dweller |
+|-----------|-------------|-------------|--------------|
+| 1         | Jane        | No          | Yes          |
+| 2         | Bob         | No          | No           |
+| 3         | Sam         | Yes         | No           |
 
-| Pet Name   | Pet Type | Person Name |
-|------------|----------|-------------|
-| Ellie      | Dog      | Jane        |
-| Joe        | Horse    | Bob         |
-| Ginger     | Dog      | Sam         |
-| Tiger      | Cat      | Jane        |
-| Toby       | Turtle   | Jane        |
-| Miss Kitty | Cat      | Sam         |
-| Bubble     | Fish     | Sam         |
+| Pet ID | Pet Name   | Pet Type | Person ID |
+|--------|------------|----------|-----------|
+| 1      | Ellie      | Dog      | 1         |
+| 2      | Joe        | Horse    | 2         |
+| 3      | Ginger     | Dog      | 3         |
+| 4      | Tiger      | Cat      | 1         |
+| 5      | Toby       | Turtle   | 1         |
+| 6      | Miss Kitty | Cat      | 3         |
+| 7      | Bubble     | Fish     | 3         |
 
 ---
 ## Stretch Goals
